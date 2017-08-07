@@ -6,6 +6,8 @@ import AlbumList from './src/components/AlbumList';
 
 //Create a component
 const App = () => (
+	//In the course, instructor asks to add flex: 1 style for the view tag because it enables scrolling 
+	//But this version of react native, supports scrolling without that style.
     <View>
       <Header headerText='Albums' />
       <AlbumList />
