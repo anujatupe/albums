@@ -27,7 +27,7 @@ const AlbumDetail = ({albumRecord}) => {
 			</CardSection>
 
 			<CardSection>
-				<Button />
+				<Button buttonOnPress={() => {console.log(title);}}/>
 			</CardSection>
 		</Card>
 	);
